@@ -86,17 +86,20 @@ let fromVipText2 = document.getElementById('formVipText2');
 let boutonConnexion = document.getElementById('boutonConnexion');
 let formulaireConnexion = document.getElementById('formulaireConnexion');
 let closeConnexion = document.getElementById('closeConnexion');
+let container = document.getElementById('container');
+
 
 boutonConnexion.addEventListener('click',openModalConnexion);
 boutonConnexion.addEventListener("touchstart", openModalConnexion);
-closeConnexion.addEventListener('click',closeModalConnexion);
-closeConnexion.addEventListener("touchstart", closeModalConnexion);
+
 function closeModalConnexion(){
     formulaireConnexion.style.display = 'none';
+    container.style.opacity = 1;
 }
 function openModalConnexion(){
   
-    formulaireConnexion.style.display = 'block';
+    formulaireConnexion.style.display = 'flex';
+    container.style.opacity = 0.5;
 }
 
 
