@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>click and love</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand" href="#page-top"><h2>Click And Love</h2></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars ms-1"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
+                        
+                        <li id="boutonConnexion" class="nav-item boutonConnexion"><a class="nav-link" href="#about">Connexion</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#team">Nos Site</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    
+        
+
+        <!-- Masthead-->
+        <header class="masthead " id="team">
+            <div class="row align-items-center">
+                
+           
+            <form id="formulaireConnexion" class="col-md-4 offset-md-4 formulaireConnexion">
+                <p id="closeConnexion"><i  class="fas fa-times"></i></p>
+                <button onclick="closeModalConnexion()">fermer</button>
+                <h1>Se connecter</h1>
+                <div class="social-media" >
+                    <p><i class="fab fa-google margin"></i></p>
+                    <p><i class="fab fa-youtube margin"></i></p>
+                    <p><i class="fab fa-facebook margin"></i></p>
+                    <p><i class="fab fa-twitter margin"></i></p>
+     
+                </div>
+                <p class="choose-email" >E-mail</p>
+                <div class="inputs">
+                    <input type="email" placeholder="Email">
+                    <input type="password" placeholder="Mot de passe">
+                </div>
+                <p class="inscrption"> je n'ai pas de compte. Je m'en crée un.</p>
+                <div>
+                    <button type="submit">Se connecter</button>
+                </div>
+    
+            </form>
+        </div>
+
+            <div class="row">
+            
+                <div class="col-lg-4">
+                    <div id="softBouton" class="team-member softBouton">
+                        <img class="mx-auto rounded-circle" src="assets/img/fondProfil/solf.jpg" alt="..." />
+                        <h4 class="colorSoft">Soft</h4>
+                        <p class="text-muted">Inscription</p>         
+                    </div>
+                    <div id="blocPopupSoft" class="blocPopupSoft">
+                    <div class="popupSoft">
+                        <form id="blocFormSoft" action="">
+                            <div id="formSoftText1">
+                        <h2>Inscription</h2>
+                        <h3>Je suis</h3>
+                        <input id="jeVeuxFemme" type="checkbox">
+                            <label for="jeSuisFemme">femme</label>
+                            <input id="jeSuisFemme" type="checkbox">
+                            <label for="jeSuisHomme">Homme</label>
+                            <input id="jeSuisFemme" type="checkbox">
+                            <label for="jeSuiscouple">Autre</lHomme>
+                         </div>
+                         <div id="formSoftText2">
+                            <h2>Inscription</h2>
+                            <h3>Je veux</h3>
+                            <input id="jeVeuxFemme" type="checkbox">
+                            <label for="jeVeuxFemme">femme</label>
+                            <input id="jeVeuxFemme" type="checkbox">
+                            <label for="jeVeuxHomme">Homme</label>
+                            <input id="jeVeuxFemme" type="checkbox">
+                            <label for="jeVeuxcouple">Autre</lHomme>
+                             </div>
+                         </form>
+                         <button id="popupSuivantSoft" class="popupSuivantSoft"> suivant</button>
+                         <button id="popupCloseSoft" class="popupCloseSoft">fermer</button>
+                         <button id="popupRetourSoft" class="popupRetourSoft">retour</button>
+
+                       
+           
+                    </div>
+                </div>
+
+
+
+                </div>
+
+                <div class="col-lg-4">
+                    <div id="hotBouton" class="team-member hotBouton">
+                        <img class="mx-auto rounded-circle" src="assets/img/fondProfil/CoupleSimple.jpg" alt="..." />
+                        <h4 class="colorHot">Hot</h4>
+                        <p class="text-muted">Inscription</p>         
+                    </div>
+                    <div id="blocPopupHot" class="blocPopupHot">
+                    <div class="popupHot">
+                        <form id="blocFormHot" action="">
+                            <div id="formHotText1">
+                        <h2>Inscription</h2>
+                        <h3>Je suis</h3>
+                        <input id="jeVeuxFemme" type="checkbox">
+                            <label for="jeSuisFemme">femme</label>
+                            <input id="jeSuisFemme" type="checkbox">
+                            <label for="jeSuisHomme">Homme</label>
+                            <input id="jeSuisFemme" type="checkbox">
+                            <label for="jeSuiscouple">couple</lHomme>
+                         </div>
+                         <div id="formHotText2">
+                            <h2>Inscription</h2>
+                            <h3>Je veux</h3>
+                            <input id="jeVeuxFemme" type="checkbox">
+                            <label for="jeVeuxFemme">femme</label>
+                            <input id="jeVeuxFemme" type="checkbox">
+                            <label for="jeVeuxHomme">Homme</label>
+                            <input id="jeVeuxFemme" type="checkbox">
+                            <label for="jeVeuxcouple">couple</lHomme>
+                             </div>
+                         </form>
+                         <button id="popupSuivantHot" class="popupSuivantHot"> suivant</button>
+                         <button id="popupCloseHot" class="popupCloseHot">fermer</button>
+                         <button id="popupRetourHot" class="popupRetourHot">retour</button>
+
+                       
+           
+                    </div>
+                </div>
+
+
+
+                </div>
+                <div class="col-lg-4">
+                    <div id="vipBouton" class="team-member vipBouton">
+                        <img class="mx-auto rounded-circle" src="assets/img/fondProfil/coupleVip.jpg" alt="..." />
+                        <h4 class="colorVip">Soft</h4>
+                        <p class="text-muted">Inscription</p>         
+                    </div>
+                    <div id="blocPopupVip" class="blocPopupVip">
+                    <div class="popupVip">
+                        <form id="blocFormVip" action="">
+                            <div id="formVipText1">
+                        <h2>Inscription</h2>
+                        <h3>Je suis</h3>
+                        <input id="jeVeuxFemme" type="checkbox">
+                            <label for="jeSuisFemme">femme</label>
+                            <input id="jeSuisFemme" type="checkbox">
+                            <label for="jeSuisHomme">Homme</label>
+                            <input id="jeSuisFemme" type="checkbox">
+                            <label for="jeSuiscouple">Autre</lHomme>
+                         </div>
+                         <div id="formVipText2">
+                            <h2>Inscription</h2>
+                            <h3>Je veux</h3>
+                            <input id="jeVeuxFemme" type="checkbox">
+                            <label for="jeVeuxFemme">femme</label>
+                            <input id="jeVeuxFemme" type="checkbox">
+                            <label for="jeVeuxHomme">Homme</label>
+                            <input id="jeVeuxFemme" type="checkbox">
+                            <label for="jeVeuxcouple">Autre</lHomme>
+                             </div>
+                         </form>
+                         <button id="popupSuivantVip" class="popupSuivantVip"> suivant</button>
+                         <button id="popupCloseVip" class="popupCloseVip">fermer</button>
+                         <button id="popupRetourVip" class="popupRetourVip">retour</button>
+
+                       
+           
+                    </div>
+                </div>
+
+
+
+                </div>
+            </div>
+        </header>
+        <!-- Services-->
+       
+       
+        <!-- Clients-->
+       
+      
+        <!-- Contact-->
+        <section class="page-section" id="contact">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Nous contacter</h2>
+                    <h3 class="section-subheading text-muted">Click and Love.</h3>
+                </div>
+                <!-- * * * * * * * * * * * * * * *-->
+                <!-- * * SB Forms Contact Form * *-->
+                <!-- * * * * * * * * * * * * * * *-->
+                <!-- This form is pre-integrated with SB Forms.-->
+                <!-- To make this form functional, sign up at-->
+                <!-- https://startbootstrap.com/solution/contact-forms-->
+                <!-- to get an API token!-->
+                <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+                    <div class="row align-items-stretch mb-5">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <!-- Name input-->
+                                <input class="form-control" id="name" type="text" placeholder="Your Name *" data-sb-validations="required" />
+                                <div class="invalid-feedback" data-sb-feedback="name:required">Ton nom.</div>
+                            </div>
+                            <div class="form-group">
+                                <!-- Email address input-->
+                                <input class="form-control" id="email" type="email" placeholder="Your Email *" data-sb-validations="required,email" />
+                                <div class="invalid-feedback" data-sb-feedback="email:required">Ton e-mail.</div>
+                                <div class="invalid-feedback" data-sb-feedback="email:email">E_mail invalide.</div>
+                            </div>
+                            <div class="form-group mb-md-0">
+                                <!-- Phone number input-->
+                                <input class="form-control" id="phone" type="tel" placeholder="Your Phone *" data-sb-validations="required" />
+                                <div class="invalid-feedback" data-sb-feedback="phone:required">Ton Téléphone.</div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group form-group-textarea mb-md-0">
+                                <!-- Message input-->
+                                <textarea class="form-control" id="message" placeholder="Your Message *" data-sb-validations="required"></textarea>
+                                <div class="invalid-feedback" data-sb-feedback="message:required">Message.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Submit success message-->
+                    <!---->
+                    <!-- This is what your users will see when the form-->
+                    <!-- has successfully submitted-->
+                    <div class="d-none" id="submitSuccessMessage">
+                        <div class="text-center text-white mb-3">
+                            <div class="fw-bolder">Form submission successful!</div>
+                            To activate this form, sign up at
+                            <br />
+                            <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
+                        </div>
+                    </div>
+                    <!-- Submit error message-->
+                    <!---->
+                    <!-- This is what your users will see when there is-->
+                    <!-- an error submitting the form-->
+                    <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
+                    <!-- Submit Button-->
+                    <div class="text-center"><button class="btn btn-primary btn-xl text-uppercase disabled" id="submitButton" type="submit">Send Message</button></div>
+                </form>
+            </div>
+        </section>
+        <!-- Footer-->
+        <footer class="footer py-4">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-4 text-lg-start">Natam </div>
+                    <div class="col-lg-4 my-3 my-lg-0">
+                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                    <div class="col-lg-4 text-lg-end">
+                        <a class="link-dark text-decoration-none me-3" href="#!">Politique de confidentialité </a>
+                        <a class="link-dark text-decoration-none" href="#!">Conditions d'utilisation</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Portfolio Modals-->
+      
+     
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+       
+    </body>
+</html>
