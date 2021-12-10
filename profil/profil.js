@@ -1,4 +1,16 @@
 //Profil
+//
+let textProfilNom = document.getElementById('textProfilNom');
+let receptionNom = document.getElementById('receptionNom');
+
+textProfilNom.addEventListener('input',()=>{
+    receptionNom.innerHTML= textProfilNom.value
+    console.log(textProfilNom.value)
+})
+
+
+
+
 //Carousel
 
 var angle = 0; 
