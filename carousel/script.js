@@ -25,9 +25,14 @@ let testTof3 = document.getElementById('testTof3');
 
 testTof.addEventListener('click',openModalImg)
 testTof1.addEventListener('click',openModalImg1)
+testTof2.addEventListener('click',openModalImg2)
+
+function openModalImg2(){
+  window.location.href = "https://tchoifr.github.io/sitederencontre/profil/pageProfil.html";
+}
 
 function openModalImg1(){
-  window.location.href = "https://tchoifr.github.io/sitederencontre/";
+  window.location.href = "https://tchoifr.github.io/sitederencontre/carousel/carousel.html";
 }
 
 function openModalImg(){
