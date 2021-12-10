@@ -1,0 +1,32 @@
+.bloc {
+    animation: bloc 5s;
+  }
+  
+  @keyframes bloc {
+    0% {
+      opacity: 0;
+      transform: translateZ(80%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateZ(0px);
+    }
+  }
+
+  .bloc2 {
+    animation: bloc2 5s;
+  }
+  
+  @keyframes bloc2 {
+    0% {
+      opacity: 0;
+      transform: translateZ(80%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateZ(0px);
+    }
+  }
+  .text-color{
+    color: black;
+  }
