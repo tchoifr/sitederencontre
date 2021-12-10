@@ -54,7 +54,7 @@ window.addEventListener('DOMContentLoaded', event => {
 });
 
 //function popup
-// declarer ID 
+// declarer ID Soft
 let softBouton = document.getElementById('softBouton');
 let blocPopupSoft = document.getElementById('blocPopupSoft');
 let popupCloseSoft = document.getElementById('popupCloseSoft');
@@ -87,6 +87,8 @@ let boutonConnexion = document.getElementById('boutonConnexion');
 let formulaireConnexion = document.getElementById('formulaireConnexion');
 let closeConnexion = document.getElementById('closeConnexion');
 let container = document.getElementById('container');
+
+//carousel
 
 
 boutonConnexion.addEventListener('click',openModalConnexion);

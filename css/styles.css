@@ -4514,9 +4514,9 @@ textarea.form-control-lg {
   flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
-  background-color: #fff;
-  background-clip: border-box;
-  border: 1px solid rgba(0, 0, 0, 0.125);
+  
+ 
+ box-shadow: 0px 0px 10px 0px;
   border-radius: 0.25rem;
 }
 .card > hr {
@@ -7718,31 +7718,37 @@ textarea.form-control-lg {
 .text-primary {
   --bs-text-opacity: 1;
   color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important;
+  margin-right: 5px;
 }
 
 .text-secondary {
   --bs-text-opacity: 1;
   color: rgba(var(--bs-secondary-rgb), var(--bs-text-opacity)) !important;
+  margin-right: 5px;
 }
 
 .text-success {
   --bs-text-opacity: 1;
   color: rgba(var(--bs-success-rgb), var(--bs-text-opacity)) !important;
+  margin-right: 5px;
 }
 
 .text-info {
   --bs-text-opacity: 1;
   color: rgba(var(--bs-info-rgb), var(--bs-text-opacity)) !important;
+  margin-right: 5px;
 }
 
 .text-warning {
   --bs-text-opacity: 1;
   color: rgba(var(--bs-warning-rgb), var(--bs-text-opacity)) !important;
+  margin-right: 5px;
 }
 
 .text-danger {
   --bs-text-opacity: 1;
   color: rgba(var(--bs-danger-rgb), var(--bs-text-opacity)) !important;
+  margin-right: 5px;
 }
 
 .text-light {
@@ -7939,7 +7945,7 @@ textarea.form-control-lg {
 }
 
 .rounded-circle {
-  border-radius: 50% !important;
+  border-radius: 10% !important;
 }
 
 .rounded-pill {
@@ -11862,7 +11868,7 @@ section#contact form#contactForm :-ms-input-placeholder {
 
 #formulaireConnexion{
   
-  background-color: #ffc800;
+  background-color: #d1d1d1;
   top: 7%;
   z-index: 1000;
   left: 1%;
@@ -11890,7 +11896,7 @@ section#contact form#contactForm :-ms-input-placeholder {
   padding: 15px;
   border-radius: 5px;
   border: none;
-  background-color: #066173;
+  background-color: #ffffff;
   
 }
 #formulaireConnexion button{
@@ -11902,10 +11908,135 @@ section#contact form#contactForm :-ms-input-placeholder {
   background-color: black;
   
 }
-
-
+.blockBouton{
+  display: flex;
+  margin: 10px;
+}
+h2{
+  color: white;
+}
 @media screen and (max-width: 770px)   {
   #formulaireConnexion{
     top: 18%;
   }
 }
+
+.imgProfil{
+  background-image: url(../assets/img/fondProfil/fondProfil.jpg);
+}
+.card{
+  background-color: transparent ;
+ 
+ 
+}
+.colorTextProfil{
+  color: white;
+  
+}
+
+
+.fondProfilText{
+  background-color: transparent;
+  box-shadow: 0px 0px 10px 0px;
+  color: white;
+  width: 100%;
+}
+.card{
+  margin: 3px;
+}
+.fas{
+  margin: 2px;
+}
+
+
+.controle{
+	
+display:grid;
+grid:2rem/repeat(2,1fr);
+place-items:center
+	
+	}
+	
+button{
+	 
+font-size: 2rem;
+border: none;
+cursor: pointer;
+background: #eee
+
+	} 
+	
+	
+.contenu-carrousel {
+	
+margin: 5rem auto;
+width: 300px;
+height: 200px;
+position: relative;
+perspective: 1000px
+	
+}
+
+.carrousel {
+	
+ height: 100%;
+ width: 100%;
+ position: absolute;
+ transform-style: preserve-3d;
+ transition: transform 1s;
+	
+}
+
+.carrousel div {
+	
+backface-visibility: hidden;
+box-shadow: 0 10px 10px rgba(0,0,0,.6);
+position: absolute;
+width: 300px;
+height: 200px;
+outline: 1px solid transparent
+	
+}
+	
+.carrousel div:nth-child(1) {
+	
+transform: rotateY(0) translateZ(270px);
+background:url(../assets/img/fondProfil/CoupleSimple.jpg) no-repeat center center/cover
+	
+}
+	
+.carrousel div:nth-child(2) {
+	
+transform: rotateY(60deg) translateZ(270px);
+background:url(../assets/img/fondProfil/coupleVip.jpg) no-repeat center center/cover
+
+}
+	
+.carrousel div:nth-child(3) {
+	
+transform: rotateY(120deg) translateZ(270px);
+background:url(../assets/img/fondProfil/fondProfil.jpg) no-repeat center center/cover
+	
+}
+	
+.carrousel div:nth-child(4) {
+	
+transform: rotateY(180deg) translateZ(270px);
+background:url(../assets/img/fondProfil/libertin.jpg) no-repeat center center/cover
+	
+}
+	
+.carrousel div:nth-child(5) {
+	
+transform: rotateY(240deg) translateZ(270px);
+background:url(../assets/img/fondProfil/libertin2.jpg) no-repeat center center/cover
+	
+} 
+	
+.carrousel div:nth-child(6) {
+	
+transform: rotateY(300deg) translateZ(270px);
+background:url(../assets/img/fondProfil/photo2femme.jpg) no-repeat center center/cover
+	
+}	
+
