@@ -1,0 +1,37 @@
+
+
+  .colorTitre3d{
+    -webkit-animation: color-change 1s infinite;
+    -moz-animation: color-change 1s infinite;
+    -o-animation: color-change 1s infinite;
+    -ms-animation: color-change 1s infinite;
+    animation: color-change 1s infinite;
+    font-size: 50px;
+}
+
+@-webkit-keyframes color-change {
+    0% { color: rgb(0, 255, 179); }
+    50% { color: rgb(9, 181, 211); }
+    100% { color: rgb(2, 77, 138); }
+}
+@-moz-keyframes color-change {
+    0% { color: rgb(0, 255, 179); }
+    50% { color: rgb(9, 181, 211); }
+    100% { color: rgb(2, 77, 138); }
+
+}
+@-ms-keyframes color-change {
+    0% { color: rgb(0, 255, 179); }
+    50% { color: rgb(9, 181, 211); }
+    100% { color: rgb(2, 77, 138); }
+}
+@-o-keyframes color-change {
+    0% { color: rgb(0, 255, 179); }
+    50% { color: rgb(9, 181, 211); }
+    100% { color: rgb(2, 77, 138); }
+}
+@keyframes color-change {
+    0% { color: rgb(0, 255, 179); }
+    50% { color: rgb(9, 181, 211); }
+    100% { color: rgb(2, 77, 138); }
+}
