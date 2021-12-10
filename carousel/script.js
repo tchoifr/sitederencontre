@@ -26,18 +26,25 @@ let testTof3 = document.getElementById('testTof3');
 testTof.addEventListener('click',openModalImg)
 testTof1.addEventListener('click',openModalImg1)
 testTof2.addEventListener('click',openModalImg2)
+testTof3.addEventListener('click',openModalImg3)
 
-function openModalImg2(){
-  window.location.href = "https://tchoifr.github.io/sitederencontre/profil/pageProfil.html";
+function openModalImg(){
+  window.location.href = "https://tchoifr.github.io/sitederencontre/";
 }
 
 function openModalImg1(){
   window.location.href = "https://tchoifr.github.io/sitederencontre/carousel/carousel.html";
 }
 
-function openModalImg(){
-  window.location.href = "https://tchoifr.github.io/sitederencontre/";
+function openModalImg2(){
+  window.location.href = "https://tchoifr.github.io/sitederencontre/profil/pageProfil.html";
 }
+
+function openModalImg3(){
+  window.location.href = "https://tchoifr.github.io/sitederencontre/profil/pageProfil.html";
+}
+
+
 
 
 
