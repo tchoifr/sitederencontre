@@ -25,20 +25,34 @@ textProfilRecherche.addEventListener('input',()=>{
 
 //Carousel
 
-var angle = 0; 
-function carrousel(sign){
+// var angle = 0; 
+// function carrousel(sign){
 
-    spinner=document.querySelector(".carrousel");
+//     spinner=document.querySelector(".carrousel");
     
-    if(!sign){angle = angle + 60}
-    else{ 
+//     if(!sign){angle = angle + 60}
+//     else{ 
     
-    angle = angle - 60
+//     angle = angle - 60
     
-    }
+//     }
     
-    spinner.setAttribute("style","transform:rotateY("+ angle +"deg);")
-}	
+//     spinner.setAttribute("style","transform:rotateY("+ angle +"deg);")
+// }	
 
+$('section.awSlider .carousel').carousel({
+    pause: "hover",
+    interval: 2000
+  });
+  
+  var startImage = $('section.awSlider .item.active > img').attr('src');
+  $('section.awSlider').append('<img src="' + startImage + '">');
+  
+  $('section.awSlider .carousel').on('slid.bs.carousel', function () {
+   var bscn = $(this).find('.item.active > img').attr('src');
+    $('section.awSlider > img').attr('src',bscn);
+  });
+  
+  
     
     
