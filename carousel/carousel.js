@@ -29,7 +29,7 @@ testTof2.addEventListener('click',openModalImg2)
 testTof3.addEventListener('click',openModalImg3)
 
 function openModalImg(){
-  window.location.href = "https://tchoifr.github.io/sitederencontre/profilHot/pageProfil.html";
+  window.location.href = "https://tchoifr.github.io/sitederencontre/profilHot/pageProfil/";
 }
 
 function openModalImg1(){
@@ -37,11 +37,11 @@ function openModalImg1(){
 }
 
 function openModalImg2(){
-  window.location.href = "https://tchoifr.github.io/sitederencontre/profilSoft/pageProfil.html";
+  window.location.href = "https://tchoifr.github.io/sitederencontre/profilSoft/pageProfil/";
 }
 
 function openModalImg3(){
-  window.location.href = "https://tchoifr.github.io/sitederencontre/profilElite/pageProfil.html";
+  window.location.href = "https://tchoifr.github.io/sitederencontre/profilElite/pageProfil/";
 }
 
 
