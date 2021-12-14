@@ -29,19 +29,19 @@ testTof2.addEventListener('click',openModalImg2)
 testTof3.addEventListener('click',openModalImg3)
 
 function openModalImg(){
-  window.location.href = "https://tchoifr.github.io/sitederencontre/";
+  window.location.href = "https://tchoifr.github.io/sitederencontre/profilHot/profil.html";
 }
 
 function openModalImg1(){
-  window.location.href = "https://tchoifr.github.io/sitederencontre/carousel/carousel.html";
+  window.location.href = "https://tchoifr.github.io/sitederencontre/";
 }
 
 function openModalImg2(){
-  window.location.href = "https://tchoifr.github.io/sitederencontre/profil/pageProfil.html";
+  window.location.href = "https://tchoifr.github.io/sitederencontre/profilSoft/pageProfil.html";
 }
 
 function openModalImg3(){
-  window.location.href = "https://tchoifr.github.io/sitederencontre/profil/pageProfil.html";
+  window.location.href = "https://tchoifr.github.io/sitederencontre/profilElite/profil.html";
 }
 
 
