@@ -33,15 +33,15 @@ function openModalImg(){
 }
 
 function openModalImg1(){
-  window.location.href = "/profilElite/pageProfilElite.html";
+  window.location.href = "https://tchoifr.github.io/sitederencontre/profilSoft/pageProfilSoft.html";
 }
 
 function openModalImg2(){
-  window.location.href = "/profilHot/pageProfilHot.html";
+  window.location.href = "https://tchoifr.github.io/sitederencontre/profilHot/pageProfilHot.html";
 }
 
 function openModalImg3(){
-  window.location.href = "/profilElite/pageProfilElite.html";
+  window.location.href = "https://tchoifr.github.io/sitederencontre/profilElite/pageProfilElite.html";
 }
 
 

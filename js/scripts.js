@@ -53,6 +53,30 @@ window.addEventListener('DOMContentLoaded', event => {
 
 });
 
+
+
+//Connexion
+let boutonConnexion = document.getElementById('boutonConnexion');
+let formulaireConnexion = document.getElementById('formulaireConnexion');
+let closeConnexion = document.getElementById('closeConnexion');
+let container = document.getElementById('container');
+
+
+
+
+boutonConnexion.addEventListener('click',openModalConnexion);
+boutonConnexion.addEventListener("touchstart", openModalConnexion);
+
+function closeModalConnexion(){
+    formulaireConnexion.style.display = 'none';
+    container.style.opacity = 1;
+}
+function openModalConnexion(){
+  
+    formulaireConnexion.style.display = 'flex';
+    container.style.opacity = 0.5;
+}
+
 //function popup
 // declarer ID Soft
 // let softBouton = document.getElementById('softBouton');
@@ -82,27 +106,6 @@ window.addEventListener('DOMContentLoaded', event => {
 // let fromVipText1 = document.getElementById('formVipText1');
 // let fromVipText2 = document.getElementById('formVipText2');
 
-//Connexion
-let boutonConnexion = document.getElementById('boutonConnexion');
-let formulaireConnexion = document.getElementById('formulaireConnexion');
-let closeConnexion = document.getElementById('closeConnexion');
-let container = document.getElementById('container');
-
-//carousel
-
-
-boutonConnexion.addEventListener('click',openModalConnexion);
-boutonConnexion.addEventListener("touchstart", openModalConnexion);
-
-function closeModalConnexion(){
-    formulaireConnexion.style.display = 'none';
-    container.style.opacity = 1;
-}
-function openModalConnexion(){
-  
-    formulaireConnexion.style.display = 'flex';
-    container.style.opacity = 0.5;
-}
 
 
 // //Soft
