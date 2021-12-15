@@ -37,11 +37,11 @@ function openModalImg1(){
 }
 
 function openModalImg2(){
-  window.location.href = "https://tchoifr.github.io/sitederencontre/profilHot/pageProfilHot.html";
+  window.location.href = "https://tchoifr.github.io/sitederencontre/carousel/carousel.html/profilHot/pageProfilHot.html";
 }
 
 function openModalImg3(){
-  window.location.href = "https://tchoifr.github.io/sitederencontre/profilElite/pageProfilElite.html";
+  window.location.href = "https://tchoifr.github.io/sitederencontre/carousel/carousel.html/pageProfilElite.html";
 }
 
 
