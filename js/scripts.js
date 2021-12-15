@@ -55,32 +55,32 @@ window.addEventListener('DOMContentLoaded', event => {
 
 //function popup
 // declarer ID Soft
-let softBouton = document.getElementById('softBouton');
-let blocPopupSoft = document.getElementById('blocPopupSoft');
-let popupCloseSoft = document.getElementById('popupCloseSoft');
-let popupSuivantSoft = document.getElementById('popupSuivantSoft');
-let popupRetourSoft = document.getElementById('popupRetourSoft');
-let fromSoftText1 = document.getElementById('formSoftText1');
-let fromSoftText2 = document.getElementById('formSoftText2');
+// let softBouton = document.getElementById('softBouton');
+// let blocPopupSoft = document.getElementById('blocPopupSoft');
+// let popupCloseSoft = document.getElementById('popupCloseSoft');
+// let popupSuivantSoft = document.getElementById('popupSuivantSoft');
+// let popupRetourSoft = document.getElementById('popupRetourSoft');
+// let fromSoftText1 = document.getElementById('formSoftText1');
+// let fromSoftText2 = document.getElementById('formSoftText2');
 
-//Hot
-let popupSuivantHot = document.getElementById('popupSuivantHot');
-let popupRetourHot = document.getElementById('popupRetourHot');
-let hotBouton = document.getElementById('hotBouton');
-let blocPopupHot = document.getElementById('blocPopupHot');
-let popupCloseHot = document.getElementById('popupCloseHot');
-let fromHotText1 = document.getElementById('formHotText1');
-let fromHotText2 = document.getElementById('formHotText2');
+// //Hot
+// let popupSuivantHot = document.getElementById('popupSuivantHot');
+// let popupRetourHot = document.getElementById('popupRetourHot');
+// let hotBouton = document.getElementById('hotBouton');
+// let blocPopupHot = document.getElementById('blocPopupHot');
+// let popupCloseHot = document.getElementById('popupCloseHot');
+// let fromHotText1 = document.getElementById('formHotText1');
+// let fromHotText2 = document.getElementById('formHotText2');
 
 
-//Vip
-let popupSuivantVip = document.getElementById('popupSuivantVip');
-let popupRetourVip = document.getElementById('popupRetourVip');
-let vipBouton = document.getElementById('vipBouton');
-let blocPopupVip = document.getElementById('blocPopupVip');
-let popupCloseVip = document.getElementById('popupCloseVip');
-let fromVipText1 = document.getElementById('formVipText1');
-let fromVipText2 = document.getElementById('formVipText2');
+// //Vip
+// let popupSuivantVip = document.getElementById('popupSuivantVip');
+// let popupRetourVip = document.getElementById('popupRetourVip');
+// let vipBouton = document.getElementById('vipBouton');
+// let blocPopupVip = document.getElementById('blocPopupVip');
+// let popupCloseVip = document.getElementById('popupCloseVip');
+// let fromVipText1 = document.getElementById('formVipText1');
+// let fromVipText2 = document.getElementById('formVipText2');
 
 //Connexion
 let boutonConnexion = document.getElementById('boutonConnexion');
@@ -105,87 +105,87 @@ function openModalConnexion(){
 }
 
 
-//Soft
-softBouton.addEventListener('click',openModal2);
-popupCloseSoft.addEventListener('click',closePopup2);
+// //Soft
+// softBouton.addEventListener('click',openModal2);
+// popupCloseSoft.addEventListener('click',closePopup2);
 
-function openModal2(){
-    blocPopupSoft.style.display = 'block';
-    softBouton.style.display = 'none';
-    fromSoftText1.style.display = 'block';
-}
-function closePopup2(){
-    blocPopupSoft.style.display = 'none'
-    softBouton.style.display = 'block'
-    fromSoftText1.style.display = 'none';
-    fromSoftText2.style.display = 'none';
-}
-popupSuivantSoft.addEventListener('click',suivantModal2);
-popupRetourSoft.addEventListener('click',retourModal2);
+// function openModal2(){
+//     blocPopupSoft.style.display = 'block';
+//     softBouton.style.display = 'none';
+//     fromSoftText1.style.display = 'block';
+// }
+// function closePopup2(){
+//     blocPopupSoft.style.display = 'none'
+//     softBouton.style.display = 'block'
+//     fromSoftText1.style.display = 'none';
+//     fromSoftText2.style.display = 'none';
+// }
+// popupSuivantSoft.addEventListener('click',suivantModal2);
+// popupRetourSoft.addEventListener('click',retourModal2);
 
-function suivantModal2(){
-    fromSoftText1.style.display = 'none';
-    fromSoftText2.style.display = 'block';
-}
-function retourModal2(){
-    fromSoftText1.style.display = 'block';
-    fromSoftText2.style.display = 'none';
-}
-
-
-//Hot
-hotBouton.addEventListener('click',openModal1);
-popupCloseHot.addEventListener('click',closePopup1);
-
-function openModal1(){
-    blocPopupHot.style.display = 'block';
-    hotBouton.style.display = 'none';
-    fromHotText1.style.display = 'block';
-}
-function closePopup1(){
-    blocPopupHot.style.display = 'none'
-    hotBouton.style.display = 'block'
-    fromHotText1.style.display = 'none';
-    fromHotText2.style.display = 'none';
-}
-popupSuivantHot.addEventListener('click',suivantModal1);
-popupRetourHot.addEventListener('click',retourModal1);
-
-function suivantModal1(){
-    fromHotText1.style.display = 'none';
-    fromHotText2.style.display = 'block';3
-}
-function retourModal1(){
-    fromHotText1.style.display = 'block';
-    fromHotText2.style.display = 'none';
-}
-
-//VIP
+// function suivantModal2(){
+//     fromSoftText1.style.display = 'none';
+//     fromSoftText2.style.display = 'block';
+// }
+// function retourModal2(){
+//     fromSoftText1.style.display = 'block';
+//     fromSoftText2.style.display = 'none';
+// }
 
 
-vipBouton.addEventListener('click',openModal3);
-popupCloseVip.addEventListener('click',closePopup3);
+// //Hot
+// hotBouton.addEventListener('click',openModal1);
+// popupCloseHot.addEventListener('click',closePopup1);
 
-function openModal3(){
-    blocPopupVip.style.display = 'block';
-    vipBouton.style.display = 'none';
-    fromVipText1.style.display = 'block';
-}
-function closePopup3(){
-    blocPopupVip.style.display = 'none'
-    vipBouton.style.display = 'block'
-    fromVipText1.style.display = 'none';
-    fromVipText2.style.display = 'none';
-}
-popupSuivantVip.addEventListener('click',suivantModal3);
-popupRetourVip.addEventListener('click',retourModal3);
+// function openModal1(){
+//     blocPopupHot.style.display = 'block';
+//     hotBouton.style.display = 'none';
+//     fromHotText1.style.display = 'block';
+// }
+// function closePopup1(){
+//     blocPopupHot.style.display = 'none'
+//     hotBouton.style.display = 'block'
+//     fromHotText1.style.display = 'none';
+//     fromHotText2.style.display = 'none';
+// }
+// popupSuivantHot.addEventListener('click',suivantModal1);
+// popupRetourHot.addEventListener('click',retourModal1);
 
-function suivantModal3(){
-    fromVipText1.style.display = 'none';
-    fromVipText2.style.display = 'block';
-}
-function retourModal3(){
-    fromVipText1.style.display = 'block';
-    fromVipText2.style.display = 'none';
-}
+// function suivantModal1(){
+//     fromHotText1.style.display = 'none';
+//     fromHotText2.style.display = 'block';3
+// }
+// function retourModal1(){
+//     fromHotText1.style.display = 'block';
+//     fromHotText2.style.display = 'none';
+// }
+
+// //VIP
+
+
+// vipBouton.addEventListener('click',openModal3);
+// popupCloseVip.addEventListener('click',closePopup3);
+
+// function openModal3(){
+//     blocPopupVip.style.display = 'block';
+//     vipBouton.style.display = 'none';
+//     fromVipText1.style.display = 'block';
+// }
+// function closePopup3(){
+//     blocPopupVip.style.display = 'none'
+//     vipBouton.style.display = 'block'
+//     fromVipText1.style.display = 'none';
+//     fromVipText2.style.display = 'none';
+// }
+// popupSuivantVip.addEventListener('click',suivantModal3);
+// popupRetourVip.addEventListener('click',retourModal3);
+
+// function suivantModal3(){
+//     fromVipText1.style.display = 'none';
+//     fromVipText2.style.display = 'block';
+// }
+// function retourModal3(){
+//     fromVipText1.style.display = 'block';
+//     fromVipText2.style.display = 'none';
+// }
 
