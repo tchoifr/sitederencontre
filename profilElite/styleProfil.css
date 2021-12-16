@@ -79,33 +79,31 @@ section.awSlider > img{
   transform: scale(1.1);
   opacity:.5;
 }
-.transparent{
-  background: transparent !important;
-}
+
 
 .btn:hover {
   background-position: right center; /* change the direction of the change here */
 }
 .btn-2 {
-  background-image: linear-gradient(to right, #fbc2eb 0%, #a6c1ee 51%, #fbc2eb 100%) !important;
+  background-image: linear-gradient(to right,  #ffd106 0%, #030303 51%, #ffc400 100%) !important;
 }
 
 .btn-3 {
-  background-image: linear-gradient(to right, #e9ff1f 0%, #fceb00 51%, #f89500 100%) !important;
+  background-image: linear-gradient(to right, #ffd106 0%, #030303 51%, #ffc400 100%) !important;
 }
 
 .btn-4 {
-  background-image: linear-gradient(to right, #dff5a5 0%, #ecffa7 51%, #ffd61e 100%) !important;
+  background-image: linear-gradient(to right, #ffd106 0%, #030303 51%, #ffc400 100%) !important;
 }
 .btn {
   flex: 1 1 auto;
   margin: 10px !important;
-  padding: 30px !important;
+  padding: 1rem !important;
   text-align: center !important;
   text-transform: uppercase !important;
   transition: 0.5s !important;
   background-size: 200% auto !important;
-  color: rgb(0, 0, 0) !important;
+  color: rgb(255, 255, 255) !important;
  /* text-shadow: 0px 0px 10px rgba(0,0,0,0.2);*/
   box-shadow: 0 0 20px #eee !important;
   border-radius: 10px !important;
@@ -125,7 +123,7 @@ section.awSlider > img{
    box-shadow: 0px 0px 10px 0px;
  }
  .text-ajust{
-   font-size: 2em;
+   font-size: 1.5em;
    font-family: fantasy;
  }
 
@@ -134,20 +132,31 @@ section.awSlider > img{
   position: initial;
   background-size: contain;
 }
-.card{
-  background-color: transparent ;
- 
- 
-}
+
 .colorTextProfil{
-  color: #ffffff;
+  color: #000000;
   
 }
 
-
+.card{
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px 0px gold;
+}
 .fondProfilText{
   background-color: transparent;
-  box-shadow: 0px 0px 20px 0px;
-  color: #ffffff;
+  
+  color: rgb(0, 0, 0);
   width: 100%;
+  margin-top: 10px;
+  border: none;
 }
+
+h1{
+  color: gold !important;
+}
+input, select{
+  border-radius: 10px;
+  padding: .7rem;
+}
+

@@ -5,11 +5,11 @@
   @keyframes bloc {
     0% {
       opacity: 0;
-      transform: translateZ(80%);
+      transform: translateY(80%);
     }
     100% {
       opacity: 1;
-      transform: translateZ(0px);
+      transform: translateY(0px);
     }
   }
 
@@ -20,11 +20,11 @@
   @keyframes bloc2 {
     0% {
       opacity: 0;
-      transform: translateZ(80%);
+      transform: translateY(80%);
     }
     100% {
       opacity: 1;
-      transform: translateZ(0px);
+      transform: translateY(0px);
     }
   }
   .text-color{
@@ -87,20 +87,20 @@ section.awSlider > img{
   background-position: right center; /* change the direction of the change here */
 }
 .btn-2 {
-  background-image: linear-gradient(to right, #fbc2eb 0%, #a6c1ee 51%, #fbc2eb 100%) !important;
+  background-image: linear-gradient(to right, #00ffff 0%, #ffffff 51%, #00ffff 100%) !important;
 }
 
 .btn-3 {
-  background-image: linear-gradient(to right, #84fab0 0%, #8fd3f4 51%, #84fab0 100%) !important;
+  background-image: linear-gradient(to right, #00ffff 0%, #ffffff 51%, #00ffff 100%) !important;
 }
 
 .btn-4 {
-  background-image: linear-gradient(to right, #a1c4fd 0%, #c2e9fb 51%, #a1c4fd 100%) !important;
+  background-image: linear-gradient(to right, #00ffff 0%, #ffffff 51%, #00ffff 100%) !important;
 }
 .btn {
   flex: 1 1 auto;
   margin: 10px !important;
-  padding: 30px !important;
+  padding: 1rem !important;
   text-align: center !important;
   text-transform: uppercase !important;
   transition: 0.5s !important;
@@ -125,29 +125,37 @@ section.awSlider > img{
    box-shadow: 0px 0px 10px 0px;
  }
  .text-ajust{
-   font-size: 2em;
+   font-size: 1.5em;
    font-family: fantasy;
  }
 
  .imgProfil{
-  background: linear-gradient(#02ffea, #2a8bfa) !important;
+  background-image: linear-gradient(to right, rgb(0, 0, 0) 0%, #313131 51%, #5a5a5a 100%) !important;
   position: initial;
   background-size: contain;
 }
-.card{
-  background-color: transparent ;
- 
- 
-}
+
 .colorTextProfil{
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   
 }
 
-
+.card{
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px 0px rgb(0, 255, 221);
+}
 .fondProfilText{
   background-color: transparent;
-  box-shadow: 0px 0px 20px 0px;
-  color: rgb(255, 255, 255);
+  border-bottom: 1px solid gray;
+  color: rgb(0, 0, 0);
   width: 100%;
+  border: none;
+}
+input, select{
+  border-radius: 10px;
+  padding: .7rem;
+}
+h1{
+  color: #00ffff !important;
 }

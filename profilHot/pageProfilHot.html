@@ -8,7 +8,7 @@
   <meta name="author" content="" />
   <title>click and love</title>
   <!-- Favicon-->
-  <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+
   <!-- Font Awesome icons (free version)-->
   <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" crossorigin="anonymous"></script>
   <!-- Google fonts-->
@@ -17,25 +17,46 @@
   <!-- Core theme CSS (includes Bootstrap)-->
   <link href="../css/styles.css" rel="stylesheet" />
   <link href="../profilHot/styleProfil.css" rel="stylesheet">
-  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
 
 
 </head>
 
 <body id="page-top" class="imgProfil">
- 
+
   <div class="container colorTextProfil">
-    
+
     <div class="main-body">
 
       <!-- Breadcrumb -->
-      <nav aria-label="breadcrumb" class="main-breadcrumb ">
-      <a href="../profil/pageProfil.html"><button class="btn btn-2">Profil</button></a> 
-      <a href="../carousel/carousel.html"><button class="btn btn-3">Menu 3D</button></a> 
-      <a href="../rechercheProfil/indexRechercheProfil.html"><button class="btn btn-4">Recherche</button></a>
-      <h1  class="placementNav">Profil Hot</h1> 
+     
+ 
+      <nav>
+        <div class="nav-wrapper">
+          <a href="#!" class="brand-logo">Profil HOT</a>
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="../carousel/carousel.html">Accueil</a></li>
+            <li><a href="../carousel/carousel.html">Menu 3D</a></li>
+            <li><a href="../rechercheProfil/indexRechercheProfil.html">Recherche Profil</a></li>
+            
+          </ul>
+        </div>
       </nav>
+    
+      <ul class="sidenav" id="mobile-demo">
+        <li><a href="sass.html">Sass</a></li>
+        <li><a href="badges.html">Components</a></li>
+        <li><a href="collapsible.html">Javascript</a></li>
+        <li><a href="mobile.html">Mobile</a></li>
+      </ul>
+            
       <!-- /Breadcrumb -->
       <form action="post">
         <div class="row gutters-sm">
@@ -58,167 +79,133 @@
                 </div>
               </div>
             </div>
-            <form action="">
-              <div class="card mt-3">
-                <ul class=" list-group list-group-flush">
-                  <li
-                    class="transparent list-group-item d-flex justify-content-between align-items-center flex-wrap fondProfilText">
-                    <h6 class="mb-0 text-ajust"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+            
+              <div class="card">
+               
+                  <form class="col s12">
+                    <div class="row">
+                      <h6 class="text-ajust"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                        viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                         stroke-linejoin="round" class="fas fa-lock mr-2 icon-inline text-danger">
-                        
+              
                       </svg>OnlyFans</h6>
-                    <input class="fondProfilText" type="url" id="lienOnlyfans" placeholder="https://onlyfans.com"
-                      pattern="https://onlyfans.com" size="30" required>
-
-                  </li>
-
-                  <li
-                    class="transparent list-group-item d-flex justify-content-between align-items-center flex-wrap fondProfilText">
-                    <h6 class="mb-0 text-ajust"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                      <div class="input-field col s12">
+                        <input id="onlyfan" type="url" class="validate">
+                        <label for="onlyfan">Onlyfan</label>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <h6 class="text-ajust"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                        viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                         stroke-linejoin="round" class="feather feather-twitter mr-2 icon-inline text-info">
                         <path
                           d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z">
                         </path>
                       </svg>Twitter</h6>
-                    <span class="text-secondary"></span>
-                    <input class="fondProfilText" type="url" id="lienTwitter" placeholder="https://twitter.com"
-                      pattern="https://twitter.com" size="30" required>
-                  </li>
-                  <li
-                    class="transparent list-group-item d-flex justify-content-between align-items-center flex-wrap fondProfilText">
-                    <h6 class="mb-0 text-ajust"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                      <div class="input-field col s12">
+                        <input id="twitter" type="url" class="validate">
+                        <label for="twitter">Twitter</label>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <h6 class="text-ajust"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                        viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                         stroke-linejoin="round" class="feather feather-instagram mr-2 icon-inline text-danger">
                         <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
                         <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
                         <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
                       </svg>Instagram</h6>
-                    <input class="fondProfilText" type="url" id="lienInstagram" placeholder="https://www.instagram.com/"
-                      pattern="https://www.instagram.com" size="30" required>
-
-                  </li>
-                  <li
-                    class="transparent list-group-item d-flex justify-content-between align-items-center flex-wrap fondProfilText">
-                    <h6 class="mb-0 text-ajust"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                      <div class="input-field col s12">
+                        <input id="instagram" type="url" class="validate">
+                        <label for="instagram">Instagram</label>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <h6 class="text-ajust"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                        viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                         stroke-linejoin="round" class="feather feather-facebook mr-2 icon-inline text-info">
                         <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
                       </svg>Facebook</h6>
-                    <input class="fondProfilText" type="url" id="lienFacebook" placeholder="https://www.facebook.com/"
-                      pattern="https://www.facebook.com/" size="30" required>
-                  </li>
-
-                </ul>
+                      <div class="input-field col s12">
+                        <input id="facebook" type="url" class="validate">
+                        <label for="facebook">Facebook</label>
+                      </div>
+                    </div>
+                  </form>
+                
               </div>
-            </form>
+           
           </div>
           <div class="col-md-6 bloc2">
             <div class="card mb-4">
               <div class="card-body ">
                 <div class="row">
-                  <div class="col-sm-3">
-                    <h6 class="mb-0 text-ajust">Prénom</h6>
-                  </div>
-                  <div class="col-sm-9 text-secondary">
-                    <input class="fondProfilText" id="textProfilNom" type="text" placeholder="Ecrivez votre nom">
-
-                  </div>
+                  <form class="col s12">
+                    <div class="row">
+                      <div class="input-field col s12">
+                        <input id="prenom" type="text" class="validate">
+                        <label for="prenom">Prénom</label>
+                      </div>
+                    </div>
+              
+                    <div class="row">
+                      <div class="input-field col s12">
+                        <input id="age" type="number" class="validate">
+                        <label for="age">Age</label>
+                      </div>
+                    </div>
+              
+                    <div class="row">
+                      <div class="input-field col s12">
+                        <input id="last_name" type="text" class="validate">
+                        <label for="taille">Taille</label>
+                      </div>
+                    </div>
+              
+                    <div class="row">
+                      <div class="input-field col s12">
+                        <input id="ville" type="text" class="validate">
+                        <label for="ville">Ville</label>
+                      </div>
+                    </div>
+              
+                    <div class="row">
+                      <div class="input-field col s12">
+                        <input id="centreInteret" type="text" class="validate">
+                        <label for="centreInteret">Centre d'intérêt</label>
+                      </div>
+                    </div>
+              
+                    <div class="row">
+                      <div class="input-field col s12">
+                        <input id="ceQueJeCherche" type="text" class="validate">
+                        <label for="ceQueJeCherche">Ce que je cherche</label>
+                      </div>
+                    </div>
+              
+                    <div class="file-field input-field">
+                      <div class="btn btn-2 ">
+                        <span>File</span>
+                        <input type="file">
+                      </div>
+                      <div class="file-path-wrapper">
+                        <input class="file-path validate" type="text">
+                      </div>
+                    </div>
+                  </form>
                 </div>
-                <hr>
-                <div class="row">
-                  <div class="col-sm-3">
-                    <h6 class="mb-0 text-ajust">Age</h6>
-                  </div>
-                  <div class="col-sm-9 text-secondary">
-                    <input class="fondProfilText" id="textProfilAge" type="number" placeholder="Votre age">
 
-                  </div>
-                </div>
-                <hr>
-                <div class="row">
-                  <div class="col-sm-6">
-                    <h6 class="mb-0 text-ajust">Corpulence/Taille</h6>
-                  </div>
-                  <div class="col-sm-9 text-secondary">
-                    <input class="fondProfilText" id="textProfilCorpulence" type="text" placeholder="Corpulence/Taille">
+      <div class="row">
+        <div class="col-sm-6">
+          <img class="imgProfil" src="../assets/img/fondProfil/CoupleSimple.jpg" alt="">
+        </div>
 
-                  </div>
-                </div>
-                <hr>
-                <div class="row">
-                  <div class="col-sm-3">
-                    <h6 class="mb-0 text-ajust">Ville</h6>
-                  </div>
-                  <div class="col-sm-9 text-secondary">
-                    <select class="fondProfilText" id="textProfilTaille" name="ville">
-                      <option class="text-color" value="Paris">Paris</option>
-                      <option class="text-color" value="Marseille">Marseille</option>
-                      <option class="text-color" value="Lyon">Lyon</option>
-                      <option class="text-color" value="Saint-etienne">Saint-etienne</option>
-                      <option class="text-color" value="Clermont-ferrand">Clermont-ferrand</option>
+        <div class="col-sm-6">
+          <img class="imgProfil" src="../assets/img/fondProfil/photo2femme.jpg" alt="">
 
-                    </select>
+        </div>
 
-
-                  </div>
-                </div>
-
-                <hr>
-                <div class="row">
-                  <div class="col-sm-6">
-                    <h6 class="mb-0 text-ajust">Centre d'intérêt</h6>
-                  </div>
-                  <div class="col-sm-9 text-secondary">
-                    <input class="fondProfilText" id="textProfilInteret" type="text"
-                      placeholder="Vos centres d'intérêt">
-
-                  </div>
-                </div>
-                <hr>
-                <div class="row">
-                  <div class="col-sm-6">
-                    <h6 class="mb-0 text-ajust">Ce que je cherche</h6>
-                  </div>
-                  <div class="col-sm-9 text-secondary">
-                    <input class="fondProfilText" id="textProfilRecherche" type="text" placeholder="Ce que je cherche">
-
-                  </div>
-                </div>
-                <hr>
-                <div class="row">
-                  <div class="col-sm-12">
-                    <h6 class="mb-0 text-ajust">image</h6>
-                  </div>
-                
-                  <div class="col-sm-5 text-secondary">
-                    <input class="fondProfilText" id="imgProfil1" type="file" placeholder="image"
-                      accept="image/png, image/jpeg">
-                  </div>
-                  
-                  <div class="col-sm-5 text-secondary">
-                    <input class="fondProfilText" id="imgProfil2" type="file" placeholder="image"
-                      accept="image/png, image/jpeg">
-
-                  </div>
-
-
-                </div>
-                <hr>
-      </form>
-
-<div class="row">
-    <div class="col-sm-6">
-      <img class="imgProfil" src="../assets/img/fondProfil/CoupleSimple.jpg" alt="">
-    </div>
-
-    <div class="col-sm-6">
-      <img class="imgProfil" src="../assets/img/fondProfil/photo2femme.jpg" alt=""> 
-
-    </div>
-   
-</div>
+      </div>
 
 
     </div>
@@ -229,6 +216,10 @@
 
   </div>
   </div>
+
+  
+  
+
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 
   <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
